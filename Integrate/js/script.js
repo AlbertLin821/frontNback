@@ -19,7 +19,7 @@ $(function () {
 
     var validator = $("#book_detail_area").kendoValidator({
         rules: {
-            //日期必填驗證
+            //日期驗證規則
             dateCheckRule: function (input) {
                 if (input.is(".date_picker")) {
                     var selector = $("#" + $(input).prop("id"));
