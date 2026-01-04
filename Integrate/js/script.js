@@ -191,7 +191,7 @@ $(function () {
  * 當圖書類別改變時,置換圖片
  */
 function onClassChange() {
-    var selectedValue = "DB";
+    var selectedValue = $("#book_class_d").data("kendoDropDownList").value();
 
     if(selectedValue===""){
         $("#book_image_d").attr("src", "image/optional.jpg");
@@ -502,7 +502,83 @@ function registerRegularComponent(){
             }
         }
     });
-    //TODO: 其他的下拉選單
+    
+    $("#book_class_q").kendoDropDownList({
+        dataTextField: "text",
+        dataValueField: "value",
+        optionLabel: "請選擇",
+        index: 0,        
+        dataSource: {
+            schema:{
+                data:"data"
+            },
+            transport: {
+                read: {
+                    dataType: "json",
+                    type:"post",
+                    url: apiRootUrl+"code/bookclass",
+                }
+            }
+        }
+    });
+
+    $("#book_class_d").kendoDropDownList({
+        dataTextField: "text",
+        dataValueField: "value",
+        optionLabel: "請選擇",
+        index: 0,
+        change: onClassChange,
+        dataSource: {
+            schema:{
+                data:"data"
+            },
+            transport: {
+                read: {
+                    dataType: "json",
+                    type:"post",
+                    url: apiRootUrl+"code/bookclass",
+                }
+            }
+        }
+    });
+
+    $("#book_keeper_q").kendoDropDownList({
+        dataTextField: "text",
+        dataValueField: "value",
+        optionLabel: "請選擇",
+        index: 0,        
+        dataSource: {
+            schema:{
+                data:"data"
+            },
+            transport: {
+                read: {
+                    dataType: "json",
+                    type:"post",
+                    url: apiRootUrl+"code/member",
+                }
+            }
+        }
+    });
+
+    $("#book_keeper_d").kendoDropDownList({
+        dataTextField: "text",
+        dataValueField: "value",
+        optionLabel: "請選擇",
+        index: 0,        
+        dataSource: {
+            schema:{
+                data:"data"
+            },
+            transport: {
+                read: {
+                    dataType: "json",
+                    type:"post",
+                    url: apiRootUrl+"code/member",
+                }
+            }
+        }
+    });
 
     $("#book_bought_date_d").kendoDatePicker({
         format: "yyyy-MM-dd",
