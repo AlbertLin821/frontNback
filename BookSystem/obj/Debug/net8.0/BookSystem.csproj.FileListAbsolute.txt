@@ -162,3 +162,6 @@ C:\MyBox\OneDrive - Galaxy Software Services\GSS\TTDC\教學活動\2025\嘉大�
 C:\MyBox\OneDrive - Galaxy Software Services\GSS\TTDC\教學活動\2025\嘉大資管全端課程_WorkSpace\Course4_前後端整合課程\Workshop\BookSystem\obj\Debug\net8.0\BookSystem.csproj.Up2Date
 C:\MyBox\OneDrive - Galaxy Software Services\GSS\TTDC\教學活動\2025\嘉大資管全端課程_WorkSpace\Course4_前後端整合課程\Workshop\BookSystem\obj\Debug\net8.0\BookSystem.genruntimeconfig.cache
 C:\MyBox\OneDrive - Galaxy Software Services\GSS\TTDC\教學活動\2025\嘉大資管全端課程_WorkSpace\Course4_前後端整合課程\Workshop\BookSystem\obj\Debug\net8.0\ref\BookSystem.dll
+C:\Users\Administrator\Desktop\frontNback\BookSystem\obj\Debug\net8.0\BookSystem.dll
+C:\Users\Administrator\Desktop\frontNback\BookSystem\obj\Debug\net8.0\refint\BookSystem.dll
+C:\Users\Administrator\Desktop\frontNback\BookSystem\obj\Debug\net8.0\BookSystem.pdb
