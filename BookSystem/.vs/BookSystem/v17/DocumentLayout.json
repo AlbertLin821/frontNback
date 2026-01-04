@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\controllers\\bookmaintaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:controllers\\bookmaintaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\codeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\codeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\bookqueryarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\bookqueryarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\booklendrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\booklendrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:model\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|c:\\users\\cindy_yh_liao\\desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\booksystem (2)\\booksystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE1A3CD2-CF08-48C5-912E-3136348812D5}|BookSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookQueryArg.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookQueryArg.cs",
+              "RelativeDocumentMoniker": "Model\\BookQueryArg.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookQueryArg.cs",
+              "RelativeToolTip": "Model\\BookQueryArg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:38:33.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookLendRecord.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookLendRecord.cs",
+              "RelativeDocumentMoniker": "Model\\BookLendRecord.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookLendRecord.cs",
+              "RelativeToolTip": "Model\\BookLendRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:54:40.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Book.cs",
+              "RelativeDocumentMoniker": "Model\\Book.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Book.cs",
+              "RelativeToolTip": "Model\\Book.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:21:54.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiResult.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\ApiResult.cs",
+              "RelativeDocumentMoniker": "Model\\ApiResult.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\ApiResult.cs",
+              "RelativeToolTip": "Model\\ApiResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:39:29.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CodeController.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Controllers\\CodeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CodeController.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Controllers\\CodeController.cs",
+              "RelativeToolTip": "Controllers\\CodeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:21:03.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookMaintainController.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Controllers\\BookMaintainController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookMaintainController.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Controllers\\BookMaintainController.cs",
+              "RelativeToolTip": "Controllers\\BookMaintainController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwBoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T11:14:00.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:26:11.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodeService.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\CodeService.cs",
+              "RelativeDocumentMoniker": "Model\\CodeService.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\CodeService.cs",
+              "RelativeToolTip": "Model\\CodeService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:25:03.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Code.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Code.cs",
+              "RelativeDocumentMoniker": "Model\\Code.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Code.cs",
+              "RelativeToolTip": "Model\\Code.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:24:14.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookService.cs",
+              "RelativeDocumentMoniker": "Model\\BookService.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\BookService.cs",
+              "RelativeToolTip": "Model\\BookService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T11:12:42.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Member.cs",
+              "RelativeDocumentMoniker": "Model\\Member.cs",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\Model\\Member.cs",
+              "RelativeToolTip": "Model\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:26:16.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\cindy_yh_liao\\Desktop\\\u5609\u5927\\\u524D\u5F8C\u7AEF\u8AB2\u7A0B_workshop\\BookSystem (2)\\BookSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-11T11:12:47.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

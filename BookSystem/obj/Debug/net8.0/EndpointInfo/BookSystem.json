@@ -1,0 +1,310 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BookSystem",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/bookmaintain/addbook": {
+      "post": {
+        "tags": [
+          "BookMaintain"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bookmaintain/querybook": {
+      "post": {
+        "tags": [
+          "BookMaintain"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BookId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BookName": {
+                    "type": "string"
+                  },
+                  "BookClassId": {
+                    "type": "string"
+                  },
+                  "BookKeeperId": {
+                    "type": "string"
+                  },
+                  "BookStatusId": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BookId": {
+                  "style": "form"
+                },
+                "BookName": {
+                  "style": "form"
+                },
+                "BookClassId": {
+                  "style": "form"
+                },
+                "BookKeeperId": {
+                  "style": "form"
+                },
+                "BookStatusId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bookmaintain/loadbook": {
+      "post": {
+        "tags": [
+          "BookMaintain"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bookmaintain/deletebook": {
+      "post": {
+        "tags": [
+          "BookMaintain"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/code/bookstatus": {
+      "post": {
+        "tags": [
+          "Code"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Book": {
+        "required": [
+          "bookAuthor",
+          "bookBoughtDate",
+          "bookClassId",
+          "bookKeeperId",
+          "bookName",
+          "bookNote",
+          "bookPublisher",
+          "bookStatusId"
+        ],
+        "type": "object",
+        "properties": {
+          "bookId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bookName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookClassId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookClassName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookBoughtDate": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookStatusId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookStatusName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookKeeperId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookKeeperCname": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookKeeperEname": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookAuthor": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookPublisher": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bookNote": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
