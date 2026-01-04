@@ -63,13 +63,10 @@ namespace BookSystem.Controllers
             try
             {
                 BookService bookService = new BookService();
+                Book book = bookService.GetBookById(bookId);
                 ApiResult<Book> result = new ApiResult<Book>
                 {
-                    //TODO:明細畫面結果
-                    Data = new Book() { 
-                        BookId=9999,
-                        BookName="Test"
-                    },
+                    Data = book,
                     Status = true,
                     Message = string.Empty
                 };
@@ -82,7 +79,35 @@ namespace BookSystem.Controllers
                 return Problem();
             }
         }
-        //TODO:UpdateBook()
+
+        [HttpPost]
+        [Route("updatebook")]
+        public IActionResult UpdateBook(Book book)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    BookService bookService = new BookService();
+                    bookService.UpdateBook(book);
+                    return Ok(
+                        new ApiResult<string>()
+                        {
+                            Data = string.Empty,
+                            Status = true,
+                            Message = string.Empty
+                        });
+                }
+                else
+                {
+                    return BadRequest(ModelState);
+                }
+            }
+            catch (Exception)
+            {
+                return Problem();
+            }
+        }
 
 
 
@@ -101,9 +126,16 @@ namespace BookSystem.Controllers
                     Message = string.Empty
                 };
 
-                //TODO:書籍刪除前檢查
-                //if book cannot result.Message = "該書已借出不可刪除"..
-                //else bookService.DeleteBookById(bookId);
+                Book book = bookService.GetBookById(bookId);
+                if (book != null && (book.BookStatusId == "B" || book.BookStatusId == "C"))
+                {
+                    result.Status = false;
+                    result.Message = "該書已借出不可刪除";
+                }
+                else
+                {
+                    bookService.DeleteBookById(bookId);
+                }
 
                 return Ok(result);
             }
@@ -112,6 +144,27 @@ namespace BookSystem.Controllers
                 return Problem();
             }
         }
-        //TODO:booklendrecord
+
+        [HttpPost]
+        [Route("booklendrecord")]
+        public IActionResult GetBookLendRecord([FromBody] int bookId)
+        {
+            try
+            {
+                BookService bookService = new BookService();
+                ApiResult<List<BookLendRecord>> result = new ApiResult<List<BookLendRecord>>
+                {
+                    Data = bookService.GetBookLendRecord(bookId),
+                    Status = true,
+                    Message = string.Empty
+                };
+
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return Problem();
+            }
+        }
     }
 }

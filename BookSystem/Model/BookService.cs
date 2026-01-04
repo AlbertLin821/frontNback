@@ -58,6 +58,40 @@ namespace BookSystem.Model
             return result;
         }
 
+        public Book GetBookById(int bookId)
+        {
+            Book result = null;
+            using (SqlConnection conn = new SqlConnection(GetDBConnectionString()))
+            {
+                string sql = @"
+                    Select 
+                        A.BOOK_ID As BookId,
+                        A.BOOK_NAME As BookName,
+                        A.BOOK_CLASS_ID As BookClassId,
+                        B.BOOK_CLASS_NAME As BookClassName,
+                        Convert(VarChar(10),A.BOOK_BOUGHT_DATE,120) As BookBoughtDate,
+                        A.BOOK_STATUS As BookStatusId,
+                        C.CODE_NAME As BookStatusName,
+                        A.BOOK_KEEPER As BookKeeperId,
+                        D.USER_CNAME As BookKeeperCname,
+                        D.USER_ENAME As BookKeeperEname,
+                        A.BOOK_AUTHOR As BookAuthor,
+                        A.BOOK_PUBLISHER As BookPublisher,
+                        A.BOOK_NOTE As BookNote
+                    From BOOK_DATA As A
+                        Inner Join BOOK_CLASS As B On A.BOOK_CLASS_ID=B.BOOK_CLASS_ID
+                        Inner Join BOOK_CODE As C On A.BOOK_STATUS=C.CODE_ID
+                        Left Join MEMBER_M As D On A.BOOK_KEEPER=D.USER_ID
+                    Where A.BOOK_ID=@BOOK_ID";
+                
+                Dictionary<string, Object> parameter = new Dictionary<string, object>();
+                parameter.Add("@BOOK_ID", bookId);
+                
+                result = conn.Query<Book>(sql, parameter).FirstOrDefault();
+            }
+            return result;
+        }
+
         public void AddBook(Book book)
         {
 
@@ -166,6 +200,33 @@ namespace BookSystem.Model
 
                 conn.Execute(sql, parameter);
             }
+        }
+
+        public List<BookLendRecord> GetBookLendRecord(int bookId)
+        {
+            var result = new List<BookLendRecord>();
+            using (SqlConnection conn = new SqlConnection(GetDBConnectionString()))
+            {
+                string sql = @"
+                    Select 
+                        A.BOOK_ID As BookId,
+                        B.BOOK_NAME As BookName,
+                        A.KEEPER_ID As BookKeeperId,
+                        C.USER_CNAME As BookKeeperCname,
+                        C.USER_ENAME As BookKeeperEname,
+                        Convert(VarChar(10),A.LEND_DATE,120) As LendDate
+                    From BOOK_LEND_RECORD As A
+                        Inner Join BOOK_DATA As B On A.BOOK_ID=B.BOOK_ID
+                        Left Join MEMBER_M As C On A.KEEPER_ID=C.USER_ID
+                    Where A.BOOK_ID=@BOOK_ID
+                    Order By A.LEND_DATE Desc";
+                
+                Dictionary<string, Object> parameter = new Dictionary<string, object>();
+                parameter.Add("@BOOK_ID", bookId);
+                
+                result = conn.Query<BookLendRecord>(sql, parameter).ToList();
+            }
+            return result;
         }
     }
 }
