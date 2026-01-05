@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "bxM/aqtJWWe6Do1ModWtzaZ3q4ZTR0GFPoK8Wzu/QnQ=",
-  "Source": "BookSystem",
-  "BasePath": "_content/BookSystem",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"omZh+puFgWITc9Bl38R2LGQRcB3qJOuykLiYq8+3bmc=","Source":"BookSystem","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

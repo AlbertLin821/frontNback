@@ -14,6 +14,12 @@
           content:" *";
           color: red;
         }
+        /* 隱藏購買日期的錯誤訊息（因為使用彈窗提示） */
+        #book_bought_date_d + .k-invalid-msg,
+        #book_bought_date_d ~ .k-invalid-msg,
+        .k-datepicker:has(#book_bought_date_d) .k-invalid-msg {
+          display: none !important;
+        }
       </style>
       
     <title>圖書館</title>
@@ -103,8 +109,9 @@
                     <div class="col">
                         <label class="required">購買日期</label>
                         <input id="book_bought_date_d" name="book_bought_date_d" class="date_picker"
-                            value="10/10/2011" title="datepicker" style="width: 100%" 
-                            data-message_prefix="購買日期"/>
+                            style="width: 100%" 
+                            data-message_prefix="購買日期"
+                            data-date-max-rule="true"/>
                     </div>
 
 
@@ -118,7 +125,7 @@
                     <div class="col" id="book_keeper_d_col">
                         <label id="book_keeper_d_label" class="required">借閱人</label>
                         <select id="book_keeper_d" name="book_keeper_d" style="width: 100%;"
-                            required validationMessage="借閱人不可空白">
+                            data-book-keeper-rule="true">
                         </select>
                     </div>
 
@@ -135,7 +142,6 @@
                         <label class="required">出版商</label>
                         <input id="book_publisher_d" name="book_publisher_d" type="text" class="k-textbox" style="width: 100%;" 
                             required validationMessage="出版商不可空白"/>
-                        </input>
                     </div>
 
 
