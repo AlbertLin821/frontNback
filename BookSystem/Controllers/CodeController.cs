@@ -34,7 +34,7 @@ namespace BookSystem.Controllers
                 return Problem();
             }
         }
-
+        
         [Route("bookclass")]
         [HttpPost()]
         public IActionResult GetBookClassData()

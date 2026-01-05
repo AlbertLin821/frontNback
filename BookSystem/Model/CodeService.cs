@@ -12,7 +12,7 @@ namespace BookSystem.Model
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .Build();
 
-            return config.GetConnectionString("DBConn");
+            return config.GetConnectionString("DBConn") ?? string.Empty;
         }
         public List<Code> GetBookStatusData()
         {
